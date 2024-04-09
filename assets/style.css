@@ -1,4 +1,3 @@
-
 /* Estilos para el cuerpo y el footer */
 body {
   padding-top: 80px;
@@ -7,9 +6,9 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-
- /* Estilos para el aside */
- aside {
+  
+/* Estilos para el aside */
+aside {
   background-color: #172a3a;
   padding: 20px;
   color: white;
@@ -86,8 +85,8 @@ aside i{
   color: rgb(184, 36, 36) ;
 }
 footer.footer {
-  background-color: #f8f9fa;
-  color: #333;
+  background-color: #0a0a0a;
+  color: #f3f1f1;
 }
 
 h1, h2, h3, h4, h5, nav {
@@ -107,3 +106,4 @@ p {
 hr {
   background-color: white;
 }
+
