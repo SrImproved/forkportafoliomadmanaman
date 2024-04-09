@@ -2,26 +2,21 @@
 /* Estilos para el cuerpo y el footer */
 body {
   padding-top: 80px;
-  background-image: url('../img/que-son-paradigmas-programacion.jpg'); 
+  background-image: url('../img/ddnm7kmznqd71.gif'); 
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-/* Estilos para el nav */
-.navbar-toggler-icon {
-  color: white; /* Cambiar color del ícono a blanco */
-}
-
-
-/* Estilos para el aside */
-aside {
-  background-color: #e4eaef;
+ /* Estilos para el aside */
+ aside {
+  background-color: #172a3a;
   padding: 20px;
+  color: white;
 }
 
 aside h2 {
-  color: #007bff; /* Cambia el color del título */
+  color: #007bff; 
 }
 
 aside p {
@@ -42,16 +37,17 @@ aside i{
   margin-bottom: 20px;
 }
 
+#info-personal {
+  background-color: #333;
+  color: white;
+}
+
 .education-item h4, .experience-item h4 {
   color: #007bff; 
 }
 
 .education-item p, .experience-item p {
   font-size: 14px;
-}
-
-#info-personal {
-  background-color: rgb(238, 233, 228);
 }
 
 /* Estilos para la sección de conocimientos */
@@ -74,6 +70,11 @@ aside i{
 
 .card-text {
   font-size: 14px; 
+}
+
+.card {
+  background-color: #333;
+  color: white;
 }
 
 /* Estilos para el footer */
@@ -101,4 +102,8 @@ p {
 #folio {
   color: rgba(243, 238, 235, 0.977);
   text-shadow: 4px 4px 4px rgba(246, 241, 241, 0.668);
+}
+
+hr {
+  background-color: white;
 }
